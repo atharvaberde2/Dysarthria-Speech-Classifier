@@ -216,7 +216,7 @@ def main():
           #           "It analyzes various acoustic features to make this determination.")
 
     # Display the animated character
-    st.image("C:/Users/athar/Downloads/animated_image.webp", width = 100)
+    st.image("animated_image.webp", width = 100)
 
 if __name__ == "__main__":
     main()
