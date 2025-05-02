@@ -53,7 +53,7 @@ st.markdown(
 # Load the custom H5 model
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('C:/Users/athar/Downloads/dysarthia.h5')
+    model = tf.keras.models.load_model('dysarthia.h5')
     model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
